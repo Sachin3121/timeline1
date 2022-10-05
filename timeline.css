@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+}
+.row{
+    clear: both;
+}
+body{    
+    background-color: #3ea0e2;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    margin:40px auto;
+    position: relative;
+}
+.contain{
+    width: 45%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+.leftsection{
+    float: left;
+    position: relative;
+}
+.rightsection{
+    float: right;
+    position: relative;
+}
+.leftsection::after{
+    position: absolute;
+    content: ' ';
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    top: 8%;
+    right: -3px;
+    transform: rotate(40deg);
+    z-index: -1;
+}
+.rightsection::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    top: 8%;
+    left: -3px;
+    transform: rotate(45deg);
+    z-index: -1;    
+}
+.centreline{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #fff;
+    left: 50%;
+    margin-top: 40px;    
+}
+.iconboxleft{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    position: absolute;
+    right: -17%;
+    top: 13px;
+    border-radius: 50%;
+    border: 5px solid white;
+    font-size: 20px;
+    text-align: center;
+    color:#3ea0e2;
+    vertical-align: middle;
+    line-height: 40px;
+    box-shadow: 0 3px 0 rgb(128 128 128 / 28%), 0 3px 0px gray inset;
+}
+.iconboxright{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: -16%;
+    top: 13px;
+    border-radius: 50%;
+    border: 5px solid white;
+    font-size: 20px;
+    text-align:center;
+    color:#3ea0e2;
+    vertical-align: middle;
+    line-height: 40px;
+    box-shadow: 0 3px 0 rgb(128 128 128 / 28%), 0 3px 0px gray inset;
+}
+
+.details{
+    margin: 15px;
+}
+.headdetails{
+    margin: 5px;
+}
+h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+span{
+    float: right;
+    font-size: 20px ;
+    margin: 3px;
+}
+.maindetails{
+    margin: 5px;
+    font-weight: 100;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.lastdetails{
+    margin: 10px 5px;
+}
+button{
+    background-color: #3ea0e2;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+.lastdetails span{
+    float: right;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.lastbox{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 48%;
+    bottom: -70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 8px 0 gray inset;
+    font-size: 30px;
+    text-align:center;
+    color:#3ea0e2;
+    vertical-align: middle;
+    line-height: 40px;
+    box-shadow: 0 3px 0 rgb(128 128 128 / 28%), 0 3px 0px gray inset;
+}
